@@ -1,0 +1,22 @@
+{
+	"name": "GitBook_note",
+	"version": "1.0.0",
+	"description": "GitBook安装与使用、发布到GitHub",
+	"main": "index.js",
+	"scripts": {
+		"start": "gitbook serve ./content ./docs",
+		"build": "gitbook build ./content ./docs",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GannonSun/GitBook_note.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/GannonSun/GitBook_note/issues"
+	},
+	"homepage": "https://github.com/GannonSun/GitBook_note#readme"
+}
